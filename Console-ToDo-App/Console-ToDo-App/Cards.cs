@@ -17,19 +17,18 @@ namespace Console_ToDo_App
             L = 4,
             XL = 5
         }
-        string Title { get; set; }
-        string Content { get; set; }
-        string PersonWhoOwns { get; set; }
-        prio Priority { get; set; }
-        string Line { get; set; }
+        public string Title { get; set; }
+        public string Content { get; set; }
+        public string PersonWhoOwns { get; set; }
+        public prio Priority { get; set; }
+        public string Line { get; set; }
         public Cards()
         {
-
+            List<Cards> carts = new List<Cards>();
         }
 
         public Cards(string title, string content, string personWhoOwns, prio priority, string line)
         {
-            List<Cards> carts = new List<Cards>();
             Title = title;
             Content = content;
             PersonWhoOwns = personWhoOwns;
