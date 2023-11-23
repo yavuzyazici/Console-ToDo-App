@@ -1,0 +1,14 @@
+C:\Users\ADMIN\Documents\GitHub\Console-ToDo-App\Console-ToDo-App\Console-ToDo-App\bin\Debug\net6.0\Console-ToDo-App.exe
+C:\Users\ADMIN\Documents\GitHub\Console-ToDo-App\Console-ToDo-App\Console-ToDo-App\bin\Debug\net6.0\Console-ToDo-App.deps.json
+C:\Users\ADMIN\Documents\GitHub\Console-ToDo-App\Console-ToDo-App\Console-ToDo-App\bin\Debug\net6.0\Console-ToDo-App.runtimeconfig.json
+C:\Users\ADMIN\Documents\GitHub\Console-ToDo-App\Console-ToDo-App\Console-ToDo-App\bin\Debug\net6.0\Console-ToDo-App.dll
+C:\Users\ADMIN\Documents\GitHub\Console-ToDo-App\Console-ToDo-App\Console-ToDo-App\bin\Debug\net6.0\Console-ToDo-App.pdb
+C:\Users\ADMIN\Documents\GitHub\Console-ToDo-App\Console-ToDo-App\Console-ToDo-App\obj\Debug\net6.0\Console-ToDo-App.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ADMIN\Documents\GitHub\Console-ToDo-App\Console-ToDo-App\Console-ToDo-App\obj\Debug\net6.0\Console-ToDo-App.AssemblyInfoInputs.cache
+C:\Users\ADMIN\Documents\GitHub\Console-ToDo-App\Console-ToDo-App\Console-ToDo-App\obj\Debug\net6.0\Console-ToDo-App.AssemblyInfo.cs
+C:\Users\ADMIN\Documents\GitHub\Console-ToDo-App\Console-ToDo-App\Console-ToDo-App\obj\Debug\net6.0\Console-ToDo-App.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\Documents\GitHub\Console-ToDo-App\Console-ToDo-App\Console-ToDo-App\obj\Debug\net6.0\Console-ToDo-App.dll
+C:\Users\ADMIN\Documents\GitHub\Console-ToDo-App\Console-ToDo-App\Console-ToDo-App\obj\Debug\net6.0\refint\Console-ToDo-App.dll
+C:\Users\ADMIN\Documents\GitHub\Console-ToDo-App\Console-ToDo-App\Console-ToDo-App\obj\Debug\net6.0\Console-ToDo-App.pdb
+C:\Users\ADMIN\Documents\GitHub\Console-ToDo-App\Console-ToDo-App\Console-ToDo-App\obj\Debug\net6.0\Console-ToDo-App.genruntimeconfig.cache
+C:\Users\ADMIN\Documents\GitHub\Console-ToDo-App\Console-ToDo-App\Console-ToDo-App\obj\Debug\net6.0\ref\Console-ToDo-App.dll
