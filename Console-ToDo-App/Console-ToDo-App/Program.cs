@@ -20,7 +20,7 @@ board.inProgress.Add(new Cards("ToDo App Yapılacak", "ToDo App Yapılacak", tea
 board.done.Add(new Cards("Yarın Okul Çıkışı Bir Yere Uğra", "Ayhan Tesisata Uğranılacak", team.teamMember[1], Cards.prio.XL, "done"));
 board.done.Add(new Cards("Telefon Rehber App Yap", "Telefon Rehber App Yap ve GitHub'da yayınla", team.teamMember[1], Cards.prio.XL, "done"));
 
-board.Start(board);
+board.Start(board,team);
 
 
 
