@@ -1,0 +1,45 @@
+﻿@model PasswordGeneratorModel
+
+@{
+    ViewBag.Title = "Password Generator";
+}
+
+<h2>Password Generator</h2>
+
+@using (Html.BeginForm("GeneratePassword", "Home", FormMethod.Post))
+{
+    <div>
+        @Html.LabelFor(model => model.PasswordLength)
+        @Html.TextBoxFor(model => model.PasswordLength, new { type = "number", min = "1", max = "100" })
+        @Html.ValidationMessageFor(model => model.PasswordLength)
+    </div>
+
+    <div>
+        @Html.LabelFor(model => model.SelectedCharacters)
+        @Html.TextBoxFor(model => model.SelectedCharacters)
+        @Html.ValidationMessageFor(model => model.SelectedCharacters)
+    </div>
+
+    <button type="submit">Generate Password</button>
+}
+
+<div>
+    @Html.LabelFor(model => model.GeneratedPassword)
+    <input type="text" id="GeneratedPassword" value="@Model.GeneratedPassword" readonly />
+
+    <button onclick="copyToClipboard()">Copy</button>
+    <button onclick="refreshPassword()">Refresh</button>
+</div>
+
+<script>
+    function copyToClipboard() {
+        var copyText = document.getElementById("GeneratedPassword");
+        copyText.select();
+        document.execCommand("copy");
+        alert("Copied the password: " + copyText.value);
+    }
+
+    function refreshPassword() {
+        location.reload();
+    }
+</script>
