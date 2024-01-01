@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using static System.Net.Mime.MediaTypeNames;
 
 namespace Console_ToDo_App
 {
@@ -23,7 +24,7 @@ namespace Console_ToDo_App
         {
             Console.Clear();
             string input;
-            Console.WriteLine("Lütfen yapmak istediğiniz işlemi seçiniz :\n*******************************************\n(1) Board Listelemek (2) Board'a Kart Eklemek (3) Board'dan Kart Silmek (4) Kart Taşımak");
+            Console.WriteLine("Lütfen yapmak istediğiniz işlemi seçiniz :\n*******************************************\n(1) Board Listelemek (2) Board'a Kart Eklemek (3) Board'dan Kart Silmek (4) Kart Taşımak (5) Kaydet ve Çık");
             input = Console.ReadLine() ?? "";
             switch (input)
             {
@@ -42,6 +43,11 @@ namespace Console_ToDo_App
                 case "4":
                     MoveCard(board, teamMembers);
                     Console.Clear();
+                    break;
+                case "5":
+                    DataManager dataManager = new DataManager();
+                    dataManager.SaveData(board);
+                    Environment.Exit(0);
                     break;
                 default:
                     Console.WriteLine("Yanlış değer girdiniz");

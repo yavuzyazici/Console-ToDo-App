@@ -12,3 +12,7 @@ C:\Users\ADMIN\Documents\GitHub\Console-ToDo-App\Console-ToDo-App\Console-ToDo-A
 C:\Users\ADMIN\Documents\GitHub\Console-ToDo-App\Console-ToDo-App\Console-ToDo-App\obj\Debug\net6.0\Console-ToDo-App.pdb
 C:\Users\ADMIN\Documents\GitHub\Console-ToDo-App\Console-ToDo-App\Console-ToDo-App\obj\Debug\net6.0\Console-ToDo-App.genruntimeconfig.cache
 C:\Users\ADMIN\Documents\GitHub\Console-ToDo-App\Console-ToDo-App\Console-ToDo-App\obj\Debug\net6.0\ref\Console-ToDo-App.dll
+C:\Users\ADMIN\Documents\GitHub\Console-ToDo-App\Console-ToDo-App\Console-ToDo-App\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\ADMIN\Documents\GitHub\Console-ToDo-App\Console-ToDo-App\Console-ToDo-App\obj\Debug\net6.0\Console-ToDo-App.csproj.AssemblyReference.cache
+C:\Users\ADMIN\Documents\GitHub\Console-ToDo-App\Console-ToDo-App\Console-ToDo-App\obj\Debug\net6.0\Console-ToDo-App.sourcelink.json
+C:\Users\ADMIN\Documents\GitHub\Console-ToDo-App\Console-ToDo-App\Console-ToDo-App\obj\Debug\net6.0\Console-ToDo-App.csproj.CopyComplete
